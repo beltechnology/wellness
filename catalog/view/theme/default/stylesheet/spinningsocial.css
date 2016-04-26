@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document : spinning social : version 2.x.x.3 : author mona  */
+
+
+ul#social {
+    float:left;
+	text-align: right;
+    transform: translatez(0);
+    -webkit-transform: translatez(0);
+    -ms-transform: translatez(0);
+    margin: 0;
+	padding-left: 0px;
+	width: 100%;
+	text-align:center;
+}
+ul#social li {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 10px;
+	margin-top:-10px;
+	margin-bottom: 15px;
+	list-style: none;
+}
+ul#social li div {
+    color: #ccc;  /* THIS CHANGES THE ICON COLOUR */
+	border: 1px solid #787878; /* THIS CHANGES THE BORDER COLOUR */
+	width: 70px;
+ 	height: 70px; 
+ 	font-size: 2.4em;
+ 	text-align: center;
+    line-height: 44px; 
+ 	transition: all .5s ease;
+ 	-webkit-border-radius: 50px;
+ 	-moz-border-radius: 50px;
+ 	border-radius: 50px;
+}
+ul#social li div .fa{
+	line-height: 70px;
+    font-size: 40px;	
+}
+ul#social li div:hover {
+	color: #ccc;  /* THIS CHANGES THE ICON COLOUR ON HOVER */
+	border: 1px solid #787878; /* THIS CHANGES THE BORDER COLOUR ON HOVER */
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+ul#social li a {
+    text-decoration: none
+}
+ul#social li:first-child {
+    margin-left: 0
+}
+footer .container > p {
+    text-align: center;
+}

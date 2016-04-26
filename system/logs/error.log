@@ -1,0 +1,7 @@
+2016-04-25 11:34:49 - PHP Warning:  DOMDocument::loadXML(): Start tag expected, '&lt;' not found in Entity, line: 1 in C:\wamp\www\upload\admin\controller\extension\modification.php on line 470
+2016-04-25 11:34:49 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\upload\admin\controller\extension\modification.php on line 478
+2016-04-25 11:36:02 - PHP Warning:  DOMDocument::loadXML(): Start tag expected, '&lt;' not found in Entity, line: 1 in C:\wamp\www\upload\admin\controller\extension\modification.php on line 470
+2016-04-25 11:36:02 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\upload\admin\controller\extension\modification.php on line 478
+2016-04-25 11:37:04 - PHP Warning:  DOMDocument::loadXML(): Start tag expected, '&lt;' not found in Entity, line: 1 in C:\wamp\www\upload\admin\controller\extension\modification.php on line 470
+2016-04-25 11:37:04 - PHP Notice:  Trying to get property of non-object in C:\wamp\www\upload\admin\controller\extension\modification.php on line 478
+2016-04-26 10:47:16 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\upload\system\library\mail.php on line 162

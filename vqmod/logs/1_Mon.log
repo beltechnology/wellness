@@ -1,0 +1,15 @@
+---------- Date: 2016-04-25 12:17:05 ~ IP : ::1 ----------
+REQUEST URI : /upload/index.php?route=common/home
+MOD DETAILS:
+   modFile   : C:\wamp\www\upload\vqmod/xml/spinning_social.xml
+   id        : Spinning Social
+   version   : 2.x.x.2
+   vqmver    : 
+   author    : mona
+
+File Name    : catalog/view/theme/default/template/common/footer.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <p><?php echo $powered; ?></p>
+
+----------------------------------------------------------------------
+
+

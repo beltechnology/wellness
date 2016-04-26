@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE modification [<!ENTITY themeFolder "default">]>
+<modification>
+		<id>Spinning Social</id>
+		<version>2.x.x.2</version>
+		<author>mona</author>
+		
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="before"><![CDATA[$data['title'] = $this->document->getTitle();
+			]]></search>
+			<add><![CDATA[
+				$this->document->addStyle('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/spinningsocial.css');		
+		
+		]]></add>
+		</operation>
+		</file>
+			<file name="catalog/view/theme/&themeFolder;/template/common/footer.tpl">
+		<operation error="log">
+			<search position="after"><![CDATA[<hr>
+    	]]></search>
+			<add><![CDATA[
+			<ul id="social">
+		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-facebook"></a></span></div></li>
+		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-twitter"></a></span></div></li>
+		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-google-plus"></a></span></div></li>
+		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-flickr"></a></span></div></li>
+			</ul>
+			
+			]]></add>
+		</operation>
+		<operation error="log">
+			<search position="replace"><![CDATA[<p><?php echo $powered; ?></p>
+			]]></search>
+			<add><![CDATA[
+			<p>Designed <a href="http://www.by-mona.com" target="_blank">By Mona&nbsp;&nbsp</a><?php echo $powered; ?></p>
+			
+			]]></add>
+		</operation>
+	</file>	
+</modification>
