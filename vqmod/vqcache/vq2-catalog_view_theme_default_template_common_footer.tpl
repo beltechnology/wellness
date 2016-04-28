@@ -41,9 +41,9 @@
     <hr>
 
 			<ul id="social">
-		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-facebook"></a></span></div></li>
-		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-twitter"></a></span></div></li>
-		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-google-plus"></a></span></div></li>
+		<li><div><a href="http://www.facebook.com" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-facebook"></a></span></div></li>
+		<li><div><a href="http://www.twitter.com" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-twitter"></a></span></div></li>
+		<li><div><a href="http://www.google.com" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-google-plus"></a></span></div></li>
 		<li><div><a href="#" onclick="window.open(this.href, '_blank');return false;"><span class="fa fa-flickr"></a></span></div></li>
 			</ul>
 			

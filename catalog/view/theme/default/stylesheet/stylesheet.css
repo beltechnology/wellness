@@ -750,3 +750,6 @@ h2.price {
     position: relative;
     top: -64px;
 }
+.col-sm-4.logoDiv {
+    height: 90px;
+}
